@@ -1,8 +1,14 @@
-# DEBUG
-Debug for conditional logs in application!
+# DEBUG by context
+## Debug
 
-# Windows CMD
-`
+Debug for conditional logs in application!
+Using debug lib, is possible debug by parts application splitted
+
+- Express
+- Debug
+
+## Installation
+```sh
 // install
 npm install
 
@@ -15,4 +21,4 @@ set DEBUG=* & node index.js
 set DEBUG=api:* & node index.js
 // or
 set DEBUG=api:multiply & node index.js
-`
+```
